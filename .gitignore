@@ -1,0 +1,23 @@
+# Exclude compile_pdf.py as requested
+compile_pdf.py
+
+# Exclude virtual environments
+venv/
+.venv/
+env/
+
+# OS-specific files
+.DS_Store
+
+# LaTeX build/auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# Exception: Allow the specific compiled research paper PDF
+!local-llm-structured-output-reliability.pdf
