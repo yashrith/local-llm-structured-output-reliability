@@ -110,7 +110,7 @@ python analyze_results.py
 
 If you use this benchmark, code, or findings in your academic or systems work, please cite the paper:
 ```bibtex
-@article{krishna2026quantization,
+@article{Yashrith2026quantization,
   title={Quantization Precision Degradation and Latency Predictability in Deterministic Local LLM Ingestion Pipelines},
   author={Yashrith Chittoor},
   journal={IEEE Transactions on Mobile Computing & Edge Intelligence},
