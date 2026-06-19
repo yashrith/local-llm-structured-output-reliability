@@ -2,8 +2,7 @@
 
 This repository contains the source code, raw datasets, analysis pipelines, and the complete research paper investigating **Syntax Rot** and system latency performance of quantized Large Language Models (LLMs) deployed locally for structured data ingestion.
 
-📄 **Read the Full Paper:** [local-llm-structured-output-reliability.pdf](local-llm-structured-output-reliability.pdf)
-
+📄 **Read the Full Paper:** [local-llm-structured-output-reliability.pdf](local-llm-structured-output-reliability.pdf), [Zendo-publication](https://zenodo.org/records/20764230)
 ---
 
 ## 📊 Overview & Key Findings
