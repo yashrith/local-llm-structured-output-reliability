@@ -112,7 +112,7 @@ If you use this benchmark, code, or findings in your academic or systems work, p
 ```bibtex
 @article{krishna2026quantization,
   title={Quantization Precision Degradation and Latency Predictability in Deterministic Local LLM Ingestion Pipelines},
-  author={Krishna, Yashrith Chittoor Hari},
+  author={Yashrith Chittoor},
   journal={IEEE Transactions on Mobile Computing & Edge Intelligence},
   volume={14},
   number={2},
