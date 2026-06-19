@@ -17,6 +17,17 @@ This project benchmarks three localized model scales under different sampling te
 2. **The Latency Premium:** Moving from the 3B baseline ($\mu = 2.94$\,s) to the 14B boundary model ($\mu = 8.49$\,s) incurs a **3x latency premium**.
 3. **SLA Jitter and Hardware Stability:** The Service Level Agreement (SLA) tail latency ($P_{95}$) remained exceptionally flat and stable relative to the Mean across the entire run. This confirms that local unified memory SoC platforms do not suffer from thermal throttling or memory leak degradation during sustained compute tasks.
 
+### 📈 Experimental Visualizations
+
+#### Structural Schema Validation Failure Matrix (Heatmap)
+![Structural Schema Validation Failure Matrix](reliability_matrix_heatmap.png)
+
+#### Processing Latency Distributions (Boxplots)
+![Processing Latency Distributions](faceted_latency_distributions.png)
+
+#### Production Ingestion Stability: Mean vs. P95 Tail Latency (SLA Chart)
+![Production Ingestion Stability: Mean vs. P95 Tail Latency](production_sla_tail_latency.png)
+
 ---
 
 ## 📁 Repository Structure
@@ -95,7 +106,7 @@ python analyze_results.py
 ---
 
 ## ✍️ Authors & Citation
-* **Yashrith Chittoor Hari Krishna** (Independent Researcher) - [yashrithchittoor@gmail.com](mailto:yashrithchittoor@gmail.com)
+* **Yashrith Chittoor Hari Krishna**
 
 If you use this benchmark, code, or findings in your academic or systems work, please cite the paper:
 ```bibtex
